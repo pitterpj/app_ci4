@@ -2,6 +2,6 @@
 
 <?php echo $this->section('contenido'); ?>
 
-<h2>Detalles del producto <?= $id ?></h2>
+<h2>Detalles del producto <?= $producto['nombre'] ?></h2>
 
 <?php echo $this->endSection(); ?>

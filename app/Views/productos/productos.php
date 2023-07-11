@@ -18,9 +18,9 @@ echo $this->section('contenido'); ?>
     <tbody>
         <?php foreach ($productos as $producto) : ?>
             <tr>
-                <td><?php echo $producto->codigo; ?></td>
-                <td><?php echo $producto->nombre; ?></td>
-                <td><?php echo $producto->stock; ?></td>
+                <td><?php echo $producto['codigo']; ?></td>
+                <td><?php echo $producto['nombre']; ?></td>
+                <td><?php echo $producto['stock']; ?></td>
             </tr>
         <?php endforeach; ?>
     </tbody>
